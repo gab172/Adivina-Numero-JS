@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 75%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.container-numero__text{
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+.container-numero__input{
+	margin-top: 1rem;
+	padding: 1rem;
+	outline: none;
+	text-align: center;
+	width: 100%;
+	border: 1px solid #000;
+}
+
+.container-numero__btn{
+	margin-top: 2rem;
+	background-color: #30fc45;
+	color: #fff;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 1rem 1rem;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
